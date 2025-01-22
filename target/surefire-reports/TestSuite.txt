@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.787 s <<< FAILURE! - in TestSuite
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)(Selleniun_start_projects.Selleniun_start_projects.AppTest)  Time elapsed: 3.664 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'HOSAM', ip: '10.0.0.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33192, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a8e3f1f-1bf4-4252-93eb-723d15b18a4c
+*** Element info: {Using=id, value=firstname}
+	at Selleniun_start_projects.Selleniun_start_projects.AppTest.Tests1(AppTest.java:39)
+
+testValidPassword on testValidPassword(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)  Time elapsed: 2.785 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'HOSAM', ip: '10.0.0.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 49364, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83ad9aaa-4740-4bee-a44a-63b0ffe4d858
+*** Element info: {Using=id, value=password}
+	at Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest.testValidPassword(PasswordValidationTest.java:23)
+
+testInvalidPassword on testInvalidPassword(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)  Time elapsed: 3.011 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'HOSAM', ip: '10.0.0.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 54888, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0615b229-c6c9-42cc-8d91-2d7f935fd985
+*** Element info: {Using=id, value=password}
+	at Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest.testInvalidPassword(PasswordValidationTest.java:31)
+

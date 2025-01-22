@@ -31,14 +31,101 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">12.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">9.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Surefire test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Selleniun_start_projects.Selleniun_start_projects.AppTest</td><td><a href="#m1"><b>Tests1</b>  </a></td><td class="numi">1</td><td>1737541419064</td><td class="numi">3657</td></tr>
+<tr class="failedeven"><td rowspan="2">Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest</td><td><a href="#m2"><b>testValidPassword</b>  </a></td><td class="numi">1</td><td>1737541422741</td><td class="numi">2786</td></tr><tr class="failedeven"><td><a href="#m3"><b>testInvalidPassword</b>  </a></td><td class="numi">1</td><td>1737541425528</td><td class="numi">3009</td></tr>
 <tr><th colspan="4">Surefire test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">Selleniun_start_projects.Selleniun_start_projects.AppTest</td><td><a href="#m1"><b>equilateralTriangle</b>  </a></td><td class="numi">1</td><td>1709299165978</td><td class="numi">12000</td></tr>
+<tr class="passedodd"><td rowspan="4">Selleniun_start_projects.Selleniun_start_projects.StringValidationTest</td><td><a href="#m4"><b>testValidValueSevenDigits</b>  </a></td><td class="numi">1</td><td>1737541422730</td><td class="numi">5</td></tr><tr class="passedodd"><td><a href="#m5"><b>testInvalidValueSpecialCharacters</b>  </a></td><td class="numi">1</td><td>1737541422736</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m6"><b>testValidValueAlphanumeric</b>  </a></td><td class="numi">1</td><td>1737541422737</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m7"><b>testInvalidValueEmpty</b>  </a></td><td class="numi">1</td><td>1737541422738</td><td class="numi">0</td></tr>
 </table>
 <h1>Surefire test</h1>
-<h2 id="m1">Selleniun_start_projects.Selleniun_start_projects.AppTest:equilateralTriangle</h2>
+<h2 id="m1">Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest:testValidPassword</h2>
+<div style="padding-left:3em">
+<p>Browsing context has been discarded
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;HOSAM&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 49364, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 83ad9aaa-4740-4bee-a44a-63b0ffe4d858
+*** Element info: {Using=id, value=password}</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest.testValidPassword(PasswordValidationTest.java:23)
+<br/>42 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Selleniun_start_projects.Selleniun_start_projects.AppTest:Tests1</h2>
+<div style="padding-left:3em">
+<p>Browsing context has been discarded
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;HOSAM&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33192, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a8e3f1f-1bf4-4252-93eb-723d15b18a4c
+*** Element info: {Using=id, value=firstname}</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at Selleniun_start_projects.Selleniun_start_projects.AppTest.Tests1(AppTest.java:39)
+<br/>42 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest:testInvalidPassword</h2>
+<div style="padding-left:3em">
+<p>Browsing context has been discarded
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;HOSAM&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 54888, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0615b229-c6c9-42cc-8d91-2d7f935fd985
+*** Element info: {Using=id, value=password}</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest.testInvalidPassword(PasswordValidationTest.java:31)
+<br/>42 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Selleniun_start_projects.Selleniun_start_projects.StringValidationTest:testInvalidValueSpecialCharacters</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Selleniun_start_projects.Selleniun_start_projects.StringValidationTest:testValidValueSevenDigits</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Selleniun_start_projects.Selleniun_start_projects.StringValidationTest:testInvalidValueEmpty</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Selleniun_start_projects.Selleniun_start_projects.StringValidationTest:testValidValueAlphanumeric</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
