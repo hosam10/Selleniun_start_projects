@@ -13,7 +13,7 @@ public class PasswordValidationTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "C:\\\\driver\\\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\driver\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.get("https://example.com/login"); // Change to the actual URL where you test password validation
     }

@@ -1,26 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.106 s <<< FAILURE! - in TestSuite
-testValidPassword on testValidPassword(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)  Time elapsed: 5.5 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-Browsing context has been discarded
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.175 s <<< FAILURE! - in TestSuite
+testValidPassword on testValidPassword(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)  Time elapsed: 4.601 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #password
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'HOSAM', ip: '10.0.0.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+System info: host: 'HOSAM', ip: '10.0.0.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 50480, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e9629d3e-26de-4651-9c4e-bc9ae877dce8
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18076, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15fed0dd-30b1-4ef0-b139-b3e592414c07
 *** Element info: {Using=id, value=password}
 	at Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest.testValidPassword(PasswordValidationTest.java:23)
 
-testInvalidPassword on testInvalidPassword(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)  Time elapsed: 4.112 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-Browsing context has been discarded
+testInvalidPassword on testInvalidPassword(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)(Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest)  Time elapsed: 4.082 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #password
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'HOSAM', ip: '10.0.0.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+System info: host: 'HOSAM', ip: '10.0.0.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37052, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b90faa69-1431-46bf-9f46-e5640419f0a2
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16560, moz:profile: C:\Users\hosam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8606601-350e-4707-8cd2-51c7af8675ac
 *** Element info: {Using=id, value=password}
 	at Selleniun_start_projects.Selleniun_start_projects.PasswordValidationTest.testInvalidPassword(PasswordValidationTest.java:31)
 
