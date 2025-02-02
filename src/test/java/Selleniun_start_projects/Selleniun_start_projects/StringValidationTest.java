@@ -24,4 +24,14 @@ public class StringValidationTest {
     public void testInvalidValueSpecialCharacters() {
         assertEquals("Invalid Value", StringValidator.validateString("WEc4O9@"));
     }
+    
+    @Test
+    public void testValidValueLessSevenDigits() {
+        assertEquals("Invalid Value", StringValidator.validateString("123"));
+    }
+    
+    @Test
+    public void testValidValueMoreSevenDigits() {
+        assertEquals("Invalid Value", StringValidator.validateString("123456789"));
+    }
 }
